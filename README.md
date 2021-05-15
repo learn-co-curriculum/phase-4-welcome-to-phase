@@ -13,7 +13,7 @@ React. Throughout our journey, we've focused on a specific kind of application
 architecture: creating a **single-page application** that consumes JSON data from a
 **Web API**.
 
-In this phase, we're going to focus on creating our very **Web API** server
+In this phase, we're going to focus on creating our very own **Web API** server
 using an incredibly powerful tool, Ruby on Rails (or, as the cool kids say, just
 Rails). By building an API to serve JSON data in Rails, you'll have full control
 over the backend logic: from how **requests** are handled and how the
@@ -43,7 +43,7 @@ requests.
 
 By the end of this phase, you should be able to:
 
-- Practice creating and configuring backend servers
+- Create and configure backend servers
 - Implement the model-view-controller design pattern in a Rails application
 - Recognize RESTful conventions in a Rails application
 - Create, read, update and delete data in a Rails application
