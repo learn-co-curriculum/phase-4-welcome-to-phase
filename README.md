@@ -23,28 +23,62 @@ as a full-stack developer!
 
 ## Phase 4 Structure
 
-This phase is structured to start small, and gradually build in complexity.
-We'll start by learning:
+This phase is structured to start small, and gradually build in complexity. Each
+module of content (a section of labs and readmes) ends with a quiz or "putting
+it all together" lab where you can check your understanding of the material. Here's
+what each module covers:
 
-- How to **handle a request** in Rails and send **JSON as a response**
-- How **Rails conventions** help organize our code
-- How to perform **CRUD** operations in Rails
+### Rails Fundamentals
 
-Then, we'll add in some additional complexity:
+Learn how to use Rails as a backend framework to create a server, and how
+following conventions helps keep our code organized and efficient. You'll also
+see the full request-response cycle and how data flows through a Rails
+application.
 
-- How to work with **multiple models and relationships**
-- How to **validate user data** to keep our database clean
-- How to **format our JSON response** to make it easy to work with
+### CRUD with Rails
 
-Finally, we'll learn how to handle **user authentication** across multiple
-requests.
+Use Rails to build a RESTful API that can perform common CRUD operations with a
+database, and how to access all the data being sent to our Rails app as well as
+how to properly format a response with a JSON body and HTTP status codes.
+
+### Validations
+
+Validations help keep our database clean, and prevent unwanted data from
+sneaking in. Learn how to use Active Model to add simple validations to your
+model, and how to respond to invalid data from users.
+
+### Client-Server Communication
+
+As full stack developers, it's always important to consider the frontend and
+the backend as you're building applications. Get a better understanding of
+how client-server communication happens via the request-response cycle, and
+how to debug common errors.
+
+### Active Record Associations
+
+Building more complex applications requires a larger domain made up of several
+related models. Learn how to use Active Record in Rails to create associations
+between models, and how to follow RESTful conventions with multiple related
+models.
+
+### Serialization
+
+When designing web APIs, one important consideration is how our data is sent
+back to our users. Learn how to use a serializer to shape how your JSON data is
+structured in the response.
+
+### Auth
+
+Authentication and authorization are two important topics in designing web
+applications. Learn how to use cookies to help identify users across multiple
+requests, and authorize users for access to specific actions on the server once
+they've logged in.
 
 ## Phase 4 Objectives
 
 By the end of this phase, you should be able to:
 
 - Create and configure backend servers
-- Implement the model-view-controller design pattern in a Rails application
 - Recognize RESTful conventions in a Rails application
 - Create, read, update and delete data in a Rails application
 - Incorporate user authentication into an application
