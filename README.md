@@ -74,14 +74,22 @@ applications. Learn how to use cookies to help identify users across multiple
 requests, and authorize users for access to specific actions on the server once
 they've logged in.
 
+### Deploying
+
+So far, we've been building applications locally &mdash; but the end goal
+is to be able to deploy our projects to the web, so that anyone can view
+them! In this section, we'll discuss what the deployment process looks like
+and how to deploy a React/Rails API application to a server.
+
 ## Phase 4 Objectives
 
 By the end of this phase, you should be able to:
 
-- Create and configure backend servers
-- Recognize RESTful conventions in a Rails application
-- Create, read, update and delete data in a Rails application
-- Incorporate user authentication into an application
-- Design, create and publish a full-stack, database-backed Rails application
+- Create RESTful APIs
+- Validate data
+- Share data between a frontend JavaScript application and a backend API
+  application
+- Build authentication into APIs
+- Deploy backend applications
 
 We've got an exciting time ahead, so let's get started!
