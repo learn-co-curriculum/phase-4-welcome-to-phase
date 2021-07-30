@@ -76,7 +76,7 @@ they've logged in.
 
 ### Deploying
 
-So far, we've been building applications locally &mdash; but the end goal
+So far, we've been building applications locally — but the end goal
 is to be able to deploy our projects to the web, so that anyone can view
 them! In this section, we'll discuss what the deployment process looks like
 and how to deploy a React/Rails API application to a server.
