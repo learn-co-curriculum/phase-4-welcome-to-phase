@@ -10,13 +10,15 @@
 Welcome to Phase 4! At this point in the program, you've tackled two programming
 languages, JavaScript and Ruby, as well as mastering a frontend framework,
 React. Throughout our journey, we've focused on a specific kind of application
-architecture: creating a **single-page application** that consumes JSON data from a
-**Web API**.
+architecture: creating a **single-page application** that consumes JSON data
+from a **Web API**. Finally, you were introduced to the process of creating your
+own API using Sinatra, a lightweight web framework used to create simple web
+applications.
 
-In this phase, we're going to focus on creating our very own **Web API** server
-using an incredibly powerful tool, Ruby on Rails (or, as the cool kids say, just
-Rails). By building an API to serve JSON data in Rails, you'll have full control
-over the backend logic: from how **requests** are handled and how the
+In this phase, we're going to learn how to create an API server using a much
+more powerful tool, **Ruby on Rails** (or, as the cool kids say, just
+**Rails**). By building an API to serve JSON data in Rails, you'll have full
+control over the backend logic: from how **requests** are handled and how the
 **response** is generated, to how your **models** interact with the database
 using Active Record. By the end of this phase, you can truly claim your mantle
 as a full-stack developer!
